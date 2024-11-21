@@ -15,7 +15,7 @@ function App() {
       const parsedData = JSON.parse(jsonInput);  // Try parsing the input
 
       // If successful, send the parsed data to the backend
-      fetch('https://bajaj-backend-f7en.onrender.com', {
+      fetch('https://bajaj-backend-f7en.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
